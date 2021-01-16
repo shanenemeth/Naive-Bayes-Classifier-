@@ -4,7 +4,7 @@
 * Converted "RANK" and  "ADMIT" variables to factors 
 * Partitioned the data into testing and training subsets
 * Plotted the model to obtain density plots of "GRE" and "GPA" variables
-* Accuracy of the model was .72, sensitivity was .90 and specificity was .32 
+* Accuracy of the model was .72 and sensitivity was .90
 * [Packages used: "naivebayes", "dplyr", "caret", "ggplot2" and "e1071"] 
 
 # Density Plot
