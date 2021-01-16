@@ -1,9 +1,9 @@
 # Naive-Bayes-Classifier-
 * Analyzed a college admissions dataset to predict the probability of whether a student was admitted to a school based off 3 independent variables - "GPA", "GRE", "RANK" and 1 response variable - "ADMIT"
-* Utilized a Naive Bayes classification algorithm to predict probability of admisison
 * Converted "RANK" and  "ADMIT" variables to factors 
 * Partitioned the data into testing and training subsets
-* Plotted the model to obtain density plots of "GRE" and "GPA" variables
+* Used ggplot2 to create density and box plots of the two continuous variables 
+* Utilized a Naive Bayes classification algorithm to predict probability of admisison
 * Accuracy of the model was .72 and sensitivity was .90
 * [Packages used: "naivebayes", "dplyr", "caret", "ggplot2" and "e1071"] 
 
