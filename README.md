@@ -5,4 +5,10 @@
 * Partitioned the data into testing and training subsets
 * Plotted the model to obtain density plots of "GRE" and "GPA" variables
 * Accuracy of the model was .72, sensitivity was .90 and specificity was .32 
-* [Packages used: "naivebayes", "dplyr", "caret" and "e1071"] 
+* [Packages used: "naivebayes", "dplyr", "caret", "ggplot2" and "e1071"] 
+
+# Density Plot
+![Density Plot](https://github.com/shanenemeth/Naive-Bayes-Classifier-/blob/main/density%20plot.png)
+
+# Box Plot
+![Box Plot](https://github.com/shanenemeth/Naive-Bayes-Classifier-/blob/main/box%20plot.png)
