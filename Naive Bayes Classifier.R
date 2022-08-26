@@ -25,14 +25,14 @@ plot(model)
 pred <- predict(model, train, type = 'prob')
 head(cbind(pred, train))
 
-p1 <- predict(model, train)
-tab1 <- (table(PredictedValue=p1, ActualValue=train$admit))
+p1 <- predict(model, test)
+tab1 <- (table(PredictedValue=p1, ActualValue=test$admit))
 tab1
 
 p2 <- predict(model, test)
 tab2 <- (table(PredictedValue=p2, ActualValue = test$admit))
 tab2
-c1 <- confusionMatrix(p1, train$admit)
+c1 <- confusionMatrix(p1, test$admit)
 c1
 
 pairs.panels(data)
